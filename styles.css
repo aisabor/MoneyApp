@@ -1,0 +1,94 @@
+body {
+  background-color: gold;
+  font-family: 'Solway', serif;
+}
+
+.log{
+  
+  padding: 10px;
+  border-radius: 10px 10px 10px 50px ;
+}
+.mx-auto a{
+  color: gold;
+  font-size: 6vh;
+  font-family: 'Inika', serif;
+  text-shadow: 2px  2px 2px;
+  
+}
+
+.nav-link{
+  align-items: center;
+  text-align: center;
+  
+}
+
+.sliding-text-container {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  overflow: hidden; 
+}
+
+.sliding-text-wrapper {
+  display: flex;
+  animation: slide 40s linear infinite;
+}
+
+.sliding-text {
+  white-space: nowrap; 
+  padding: 10px;
+}
+
+@keyframes slide {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.container{
+  margin: 30vh;
+  align-items: center;
+  text-align: center;
+}
+
+.here {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  align-items: center;
+  text-align: center;
+
+}
+.sen{
+  width: 29vh;
+  height: 12vh;
+  background-color: gold;
+  color: #333;
+  margin: 40px;
+  font-size: 50px;
+  border-radius: 10px 10px 10px 50px ;
+  
+}
+
+.NoShow {
+  overflow: hidden;
+  align-items: center;
+}
+
+.NoShow p{
+  margin: 10px;
+
+}
+img{
+  object-fit: none;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.colrs{
+  background-color: black;
+  height: 90vh;
+}
+
